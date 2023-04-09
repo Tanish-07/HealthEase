@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Home section */
+
+    .p {
+        position: absolute;
+        right: 20px;
+        top: 40px;
+        font-size: 40px;
+    }
+
+    .circle1 {
+        position: absolute;
+        width: 258px;
+        height: 233px;
+        left: -65px;
+        top: -133px;
+        border-radius: 100%;
+        background: rgba(1, 106, 167, 0.05);
+    }
+
+    .circle2 {
+        position: absolute;
+        width: 258px;
+        height: 250px;
+        left: -176px;
+        top: -105px;
+        border-radius: 100%;
+        background: rgba(1, 106, 167, 0.05);
+    }
+
+    .home .logo {
+        position: absolute;
+        width: 137px;
+        height: 115px;
+        left: -10px;
+        top: 20px;
+    }
+
+
+    .main {
+        position: absolute;
+        width: 325px;
+        height: 650px;
+        left: 31px;
+        top: 125px;
+        background: rgba(0, 163, 255, 0.2);
+        border-radius: 18.5714px;
+    }
+
+    .footer {
+        position: absolute;
+        width: 350px;
+        height: 49px;
+        left: 20px;
+        top: 784px;
+
+        background: rgba(0, 163, 255, 0.2);
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 25px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+
+    }
+
+    .box2 {
+        position: absolute;
+        top: 175px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box3 {
+        position: absolute;
+        top: 325px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inner-image {
+        position: absolute;
+        width: 101px;
+        height: 103px;
+        padding: 10px;
+        left: 30px;
+    }
+
+    p {
+        font-size: 30px;
+        padding-left: 100px
+    }
+
+
+    .footer-image {
+        width: 30px;
+        height: auto;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 10px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid #168A8A;
+    }
+
+
+    .box4 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 54px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+    }
+
+    .inner-image-2 {
+        /* position: absolute; */
+        width: 101px;
+        height: 103px;
+        padding: 10px;
+        left: 10px;
+    }
+
+    .mobileno {
+        color: red;
+    }
+
+    .box5 {
+        position: absolute;
+        top: 204px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box6 {
+        position: absolute;
+        top: 355px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-box {
+        padding-top: 10px;
+    }
+
+    .search-box input {
+        position: absolute;
+        width: 286px;
+        height: 29px;
+        left: 19px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+    i {
+        position: absolute;
+        right: 35px;
+        padding-top: 7px;
+    }
+
+    .white-box {
+        position: absolute;
+        width: 275px;
+        height: 58px;
+        left: 24px;
+        top: 26px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box7 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 125px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 330px;
+        left: 11px;
+    }
+
+    .one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .image {
+        border-radius: 50%;
+        width: 55px;
+        border-color: #168A8A;
+    }
+
+    .box10 {
+        position: absolute;
+        top: 500px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box11 {
+        position: absolute;
+        top: 210px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box12 {
+        position: absolute;
+        top: 60px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inner-image-3 {
+        /* position: static; */
+        width: 101px;
+        height: 103px;
+        padding: 10px;
+        left: 10px;
+        border-radius: 30px;
+        border: 2px solid black;
+    }
+
+    .namebox-1 {
+        padding-left: 20px;
+    }
+
+    .box13 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 255px;
+        background-color: #BBCBCD;
+        border-radius: 33px;
+        width: 300px;
+        height: 130px;
+        left: 11px;
+    }
+
+    .inner-image-x {
+        position: absolute;
+        width: 101px;
+        height: 103px;
+        padding: 10px;
+        left: 95px;
+    }
+}
